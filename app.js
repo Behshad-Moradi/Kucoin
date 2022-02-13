@@ -86,8 +86,8 @@ async function run()
                 
                 console.log("Total S: " + parseInt(totalS) + " in " + "Range: " + from + ' ~ ' + to);
                 console.log("Buy - Sell: ", parseInt(totalB - totalS));
-                console.log("Biggest B order: ", maxB);
-                console.log("Biggest S order: ", maxS);
+                console.log("Largest B order: ", maxB);
+                console.log("Largest S order: ", maxS);
                 
             }catch (err)
             {
