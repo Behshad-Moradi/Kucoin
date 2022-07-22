@@ -1,6 +1,7 @@
 const axios = require('axios');
 const prompt = require("prompt-sync")({ sigint: true });
 
+
 const baseUrl = 'https://api.kucoin.com'
 
 //ms
